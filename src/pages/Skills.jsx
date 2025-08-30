@@ -39,7 +39,7 @@ export default function Skills() {
         </span>
       </h1>
 
-      {/* Skills Grid */}
+      {/* Skills Grid */}                      
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
         {skills.map((category) => (
           <div

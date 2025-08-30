@@ -2,9 +2,13 @@
 import React, { Suspense, lazy } from "react";
 import { Link } from "react-router-dom";
 
+
 const About = lazy(() => import("./About"));
 const Skills = lazy(() => import("./Skills"));
 const Experience = lazy(() => import("./Experience"));
+const Contact = lazy(() => import("./Contact"));
+const Projects = lazy(() => import("./Projects"));
+const Education = lazy(() => import("./Education"));
 
 export default function Home() {
   return (
@@ -62,6 +66,9 @@ export default function Home() {
           <About />
           <Skills />
           <Experience />
+          <Projects />
+          <Education />
+          <Contact />
         </section>
       </Suspense>
     </>
