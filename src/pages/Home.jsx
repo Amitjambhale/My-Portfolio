@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section className="flex flex-col-reverse md:flex-row items-center justify-between gap-8 min-h-[70vh] px-8">
+      <section className="flex flex-col-reverse md:flex-row items-center justify-between gap-8 min-h-[70vh] px-10 ">
         {/* LEFT SIDE - TEXT CONTENT */}
         <div className="flex-1 text-center md:text-left space-y-6">
           {/* Greeting */}
@@ -28,7 +28,7 @@ export default function Home() {
           {/* Tagline */}
           <p className="text-lg text-slate-300 max-w-lg mx-auto md:mx-0">
             A passionate{" "}
-            <span className="text-yellow-400">Frontend Developer</span> who loves
+            <span className="text-yellow-400">Web Developer</span> who loves
             building modern, responsive, and user-friendly web applications.
           </p>
 
@@ -52,9 +52,9 @@ export default function Home() {
         {/* RIGHT SIDE - IMAGE / ILLUSTRATION */}
         <div className="flex-1 flex justify-center md:justify-end">
           <img
-            src="/dummy.jpg"
+            src="/Amit1.jpg"
             alt="Amit Jambhale Profile"
-            className="w-60 h-60 md:w-70 md:h-70 object-cover rounded-full border-4 border-violet-500 shadow-lg"
+            className="w-80 h-80 md:w-80 md:h-80 object-cover rounded-full border-4 border-violet-500 shadow-lg"
             loading="lazy"
           />
         </div>
@@ -62,7 +62,7 @@ export default function Home() {
 
       {/* About, Skills, Experience Sections */}
       <Suspense fallback={<div className="p-6 text-center text-white">Loading…</div>}>
-        <section className="max-w-7xl mx-auto px-6 py-6 space-y-20">
+        <section className="max-w-7xl mx-auto px-6 py-2 space-y-20">
           <About />
           <Skills />
           <Experience />

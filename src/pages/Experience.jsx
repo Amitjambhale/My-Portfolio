@@ -4,8 +4,23 @@ import { FaBriefcase } from "react-icons/fa";
 
 export default function Experience() {
   const experience = [
+
+     {
+      period: "August 2025 - Present",
+      role: "Web Developer – React.js",
+      company: "Econsign Soft",
+      details: (
+        <>
+          <p>
+           Developing and maintaining responsive web applications using React.js, focusing on clean UI and optimized performance.
+          </p>
+          <p> Collaborating with design and backend teams to implement scalable front-end features and improve user experience.
+          </p>
+        </>
+      ),
+    },
     {
-      period: "Jan 2025 - August 2025",
+      period: "Jan 2025 - July 2025",
       role: "Frontend Developer Intern",
       company: "Chordz Technologies",
       details: (

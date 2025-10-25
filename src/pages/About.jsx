@@ -11,7 +11,7 @@ export default function About() {
       <div className="bg-slate-800 rounded-xl shadow-lg p-8">
         <h2 className="text-2xl font-semibold mb-4 text-white">Who I Am</h2>
         <p className="leading-relaxed mb-4">
-          I'm <span className="text-yellow-400 font-semibold">Amit Jambhale</span>, a Frontend Developer passionate about crafting clean, efficient, and scalable web applications. With a strong foundation in React.js and React Native, I enjoy turning complex problems into simple, beautiful, and intuitive designs.
+          I'm <span className="text-yellow-400 font-semibold">Amit Jambhale</span>, a Web Developer passionate about crafting clean, efficient, and scalable web applications. With a strong foundation in React.js and React Native, I enjoy turning complex problems into simple, beautiful, and intuitive designs.
         </p>
         <p className="leading-relaxed">
           I thrive in collaborative environments and continuously seek to learn new technologies and improve my skills. My goal is to build impactful digital experiences that users love.
