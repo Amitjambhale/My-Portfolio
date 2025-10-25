@@ -54,9 +54,10 @@ export default function Home() {
           <img
             src="/Amit1.jpg"
             alt="Amit Jambhale Profile"
-            className="w-75 h-75 md:w-75 md:h-75 object-cover rounded-full border-4 border-violet-500 shadow-lg"
+            className="w-48 h-48 md:w-64 md:h-64 object-cover rounded-full border-4 border-violet-500 shadow-lg"
             loading="lazy"
           />
+
         </div>
       </section>
 
