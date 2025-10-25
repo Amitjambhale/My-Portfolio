@@ -19,7 +19,7 @@ export default function About() {
 
         {/* Resume Download */}
         <a
-          href="/resume.pdf"
+          href="/resume1.pdf"
           download
           className="inline-block mt-8 px-6 py-3 bg-yellow-400 text-black font-semibold rounded-lg shadow-md hover:bg-yellow-300 transition"
           aria-label="Download Resume"
